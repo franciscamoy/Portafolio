@@ -9,25 +9,25 @@ body {
 h1 {
     font-family: 'Abril Fatface', cursive;
     
-    color: #373A3C;
+    color: #000000;
 }
 
 h2 {
     font-family: 'Abril Fatface', cursive;
     
-    color: #373A3C;
+    color: #000000;
 }
 
 h3 {
     font-family: 'Abril Fatface', cursive;
     
-    color: #373A3C;
+    color: #000000;
 }
 
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 14pt;
-    color: #373A3C;
+    color: #000000;
 }
 
 ul li {
@@ -39,7 +39,7 @@ ul li {
 /*-- NAVEGADOR--*/
 
 .navbar {
-    background-color: rgb(248, 214, 170) !important;
+    background-color: #000000;
 }
 
 .navbar-brand {
@@ -54,9 +54,15 @@ ul li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 450px; 
+    height: 500px; 
 }
 
+/*-- TEXTO EXPERIENCIA--*/
+
+.texto_experiencia {
+    background-color: rgb(245, 188, 160) !important;
+ 
+}
 
 /*-- CARRUSEL TRABAJOS OFFLINE--*/
 
@@ -66,7 +72,7 @@ ul li {
 }
 
 .trabajos_offline {
-    background-color: rgb(248, 214, 170) !important;
+    
     height: 450px; 
     
 }
@@ -74,8 +80,9 @@ ul li {
 
 /*-- TRABAJOS ONLINE--*/
 
-.titulo_ingredientes {
-    width: 220px;
+.trabajos_online {
+    background-color: rgb(179, 177, 176) !important;
+ 
 }
 
 .lista {
@@ -87,7 +94,7 @@ ul li {
 /*-- CONTACTO --*/
 
 .contacto {
-    background-color: rgb(179, 177, 176) !important;
+    
     padding: 50px 150px;
 }
 
@@ -97,8 +104,14 @@ ul li {
 
 .redes_sociales {
     padding-top: 20px;
+    color: #ffffff;
     text-align: center;
-    color: white;
-    background-color: rgb(248, 214, 170) !important;
+    background-color: #000000;
     height: 200px
+}
+
+.redes_sociales p {
+   
+    color: #ffffff;
+    
 }
