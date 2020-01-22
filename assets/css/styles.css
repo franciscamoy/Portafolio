@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    
+    color: #373A3C;
+}
+
+h2 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    
+    color: #373A3C;
+}
+
+h3 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    
+    color: #373A3C;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16pt;
+    color: #373A3C;
+}
+
+ul li {
+    display: block;
+    font-size: 16pt;
+}
+
+
+/*-- NAVEGADOR--*/
+
+.navbar {
+    background-color: crimson !important;
+}
+
+.navbar-brand {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30pt
+}
+
+/*-- HEADER--*/
+
+.foto_header {
+    background-image: url(../img/img-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+}
+
+
+/*-- CARRUSEL--*/
+
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators .active {
+    background-color: black;
+}
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+/*-- RECETAS RELACIONADAS--*/
+
+.titulo_ingredientes {
+    width: 220px;
+ 
+}
+
+.lista {
+    padding-left: 0;
+ 
+}
+
+
+/*-- SUSCRIBETE--*/
+
+.suscribete {
+    background-color: #DC3545 !important;
+    padding: 50px 150px;
+}
+
+.ricomida_chico {
+    font-size: 18pt;
+}
+
+/*-- FOOTER--*/
+
+.fondo__footer {
+    color: white;
+    background-color: #000000 !important;
+    height: 184px;
+}
