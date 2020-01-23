@@ -54,7 +54,7 @@ ul li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px; 
+    
 }
 
 /*-- TEXTO EXPERIENCIA--*/
@@ -66,16 +66,44 @@ ul li {
 
 /*-- CARRUSEL TRABAJOS OFFLINE--*/
 
-.carousel-item {
-    display: block;
-    padding: 4px;
+
+.foto-offline1 {
+    background-image: url(../img/offline1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+.foto-offline2 {
+    background-image: url(../img/offline2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.foto-offline3 {
+    background-image: url(../img/offline3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.foto-offline4 {
+    background-image: url(../img/offline4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.foto-offline5 {
+    background-image: url(../img/offline5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
 }
 
-.trabajos_offline {
-    
-    height: 450px; 
-    
-}
 
 
 /*-- TRABAJOS ONLINE--*/
@@ -94,7 +122,6 @@ ul li {
 /*-- CONTACTO --*/
 
 .contacto {
-    
     padding: 50px 150px;
 }
 
