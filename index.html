@@ -17,8 +17,9 @@
   <script type="text/javascript" src="assets/js/script.js"></script>
 
   <!--bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
   <!--mi estilo -->
   <link rel="stylesheet" href="assets/css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
@@ -33,7 +34,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Fran</a>
+      <a class="navbar-brand" href="#">FM</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,16 +42,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" onclick="scroll()" href="#experiencia">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Offline</a>
+            <a class="nav-link" onclick="scroll()" href="#online">Online</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Online</a>
+            <a class="nav-link" onclick="scroll()" href="#offline">Offline</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" onclick="scroll()" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -70,18 +71,18 @@
             <h1 class="text-center text-lg-left">Francisca Moyano</h1>
             <h3 class="text-center text-lg-left">Diseñadora</h3>
 
-            <p class="text-center text-lg-left">"El diseño no es sólo lo que se ve y se siente. 
-              <br>El diseño es cómo funciona" <br> Steve Jobs</p>
-          
-            
+            <p class="text-center text-lg-left">"El diseño no es sólo lo que se ve y se siente.
+              <br>El diseño es cómo funciona"<br> Steve Jobs</p>
+
+
           </div>
 
-          <div class="col-sm-12 col-lg-6 p-4">
+          <div class="col-sm-12 col-lg-6 mb-4">
             <img src="assets/img/foto_personal.jpg" class="rounded-circle" alt="Foto personal">
-            
+
           </div>
 
-          
+
         </div>
 
 
@@ -93,84 +94,158 @@
 
   <!-- MI DESCRIPCION -->
 
-  <section class="container-fluid texto_experiencia p-4">
+  <section id="experiencia" class="container-fluid texto_experiencia p-4">
 
     <div class="container">
 
-      <div class="row justify-content-md-center">
-  
+      <div class="row">
+
         <div class="container col-12 col-lg-6">
-  
-          <h3 class="text-center text-lg-left">Experiencia Offline</h3>
-  
-          <p class="text-center text-lg-left"> Desarrollo y desarrollo de Productos de consumo masivo. Spot Publicitarios, Vía Pública, POP. Edición Fotográfica analoga y digital.
-            Imagen corporativa y Branding. Manejo de equipos de trabajo multidisciplinarios. Inglés e Italiano avanzado hablado y escrito. Manejo de Software de Diseño nivel avanzado.</p>
-          
-            <div class="w-100 iconos_manejo">
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Adobe Photoshop">
-                <img src="assets/img/icon-photoshop.png"></img>
-              </span>
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Adobe Illustrator">
-                <img class="ml-3" src="assets/img/icon-illustrator.png"></img>
-              </span>
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Adobe InDesign">
-                <img class="ml-3" src="assets/img/icon-indesign.png"></img>
-              </span>
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Microsoft Word">
-                <img class="ml-3" src="assets/img/icon-word.png"></img>
-              </span>
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Microsoft Powerpoint">
-                <img class="ml-3" src="assets/img/icon-ppt.png"></img>
-              </span>
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Microsoft Excell">
-                <img class="ml-3" src="assets/img/icon-excell.png"></img>
-              </span>
-              
-            </div>
-  
-        </div>
-  
-        <div class="container col-12 col-lg-6">
-  
+
           <h3 class="text-center text-lg-left">Experiencia Online</h3>
-  
-          <p class="text-center text-lg-left">UX (por sus siglas en inglés User eXperience) o en español Experiencia de Usuario, es aquello que una persona percibe al interactuar con un producto o servicio. 
-            Logramos una buena UX al enfocarnos en diseñar productos útiles, usables y deseables, lo cual influye en que el usuario se sienta satisfecho, feliz y encantado.</p>
-  
-            <div class="w-100 iconos_manejo">
 
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="HTML 5">
-                <i class="fab fa-html5 fa-3x"></i>
-              </span>
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="CSS">
-                <i class="far fa-file-code fa-3x ml-4"></i>
-              </span>
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Bootstrap">
-                <i class="fab fa-bootstrap fa-3x ml-4"></i>
-              </span>
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="GitHub">
-                <i class="fab fa-github fa-3x ml-4"></i>
-              </span>
-              <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="JavaScript">
-                <i class="fab fa-js-square fa-3x ml-4"></i>
-              </span>
+          <p class="text-center text-lg-left">UX (por sus siglas en inglés User eXperience) o en español Experiencia de
+            Usuario, es aquello que una persona percibe al interactuar con un producto o servicio.
+            Logramos una buena UX al enfocarnos en diseñar productos útiles, usables y deseables, lo cual influye en que
+            el usuario se sienta satisfecho, feliz y encantado.</p>
 
-            </div>
-      
+          <div class="w-100 iconos_manejo">
+
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="HTML 5">
+              <i class="fab fa-html5 fa-3x mx-1"></i>
+            </span>
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="CSS">
+              <i class="far fa-file-code fa-3x mx-1"></i>
+            </span>
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Bootstrap">
+              <i class="fab fa-bootstrap fa-3x mx-1"></i>
+            </span>
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="GitHub">
+              <i class="fab fa-github fa-3x mx-1"></i>
+            </span>
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="JavaScript">
+              <i class="fab fa-js-square fa-3x mx-1"></i>
+            </span>
+
+          </div>
+
         </div>
-  
+
+        <div class="container col-12 col-lg-6">
+
+          <h3 class="text-center text-lg-left">Experiencia Offline</h3>
+
+          <p class="text-center text-lg-left"> Desarrollo y desarrollo de Productos de consumo masivo. Spot
+            Publicitarios, Vía Pública, POP. Edición Fotográfica analoga y digital.
+            Imagen corporativa y Branding. Manejo de equipos de trabajo multidisciplinarios. Inglés e Italiano avanzado
+            hablado y escrito. Manejo de Software de Diseño nivel avanzado.</p>
+
+          <div class="text-center text-lg-left w-100 iconos_manejo">
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Adobe Photoshop">
+              <img src="assets/img/icon-photoshop.png"></img>
+            </span>
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Adobe Illustrator">
+              <img class="ml-2" src="assets/img/icon-illustrator.png"></img>
+            </span>
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Adobe InDesign">
+              <img class="ml-2" src="assets/img/icon-indesign.png"></img>
+            </span>
+
+
+          </div>
+
+        </div>
+
       </div>
     </div>
   </section>
 
-  
+  <!--MIS TRABAJOS ONLINE -->
+
+  <section id="online" class="container-fluid trabajos_online p-3">
+
+    <div class="container">
+
+      <h1 class="text-center mt-4">Trabajos Online</h1>
+
+      <div class="row">
+
+        <div class="col-sm-12 col-md-4 p-3">
+          <div class="card mx-auto" style="width: 20rem;">
+            <img src="assets/img/online1.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">Meet & Coffee</h3>
+              <p class="card-text">Sitio Web construido en Html y CSS destinado a un espacio de co-working y cafeteria.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 p-3">
+          <div class="card mx-auto" style="width: 20rem;">
+            <img src="assets/img/online2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">Iguana</h3>
+              <p class="card-text">Sitio Web construido en Html y CSS descriptivo de la especia animal Iguanas.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 p-3 mx-auto">
+          <div class="card mx-auto" style="width: 20rem;">
+            <img src="assets/img/online3.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">Suricata</h3>
+              <p class="card-text">Sitio Web construido en Html y CSS de un restaurant de comida casera.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-12 col-md-4 p-3 mx-auto">
+          <div class="card mx-auto" style="width: 20rem;">
+            <img src="assets/img/online4.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">Cuppon</h3>
+              <p class="card-text">Sitio Web responsivo de cupones de descuentos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 p-3 mx-auto">
+          <div class="card mx-auto" style="width: 20rem;">
+            <img src="assets/img/online5.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">Olivia Ros</h3>
+              <p class="card-text">Portafolio online de el cliente.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 p-3 mx-auto">
+          <div class="card mx-auto" style="width: 20rem;">
+            <img src="assets/img/online6.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">Ricomida</h3>
+              <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate
+                nostra,
+                blandit erat luctus faucibus orci.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
   <!--CARUSEL TRABAJOS OFFLINE -->
 
-  <main class="container-fluid p-4">
+  <main id="offline" class="container-fluid p-4">
     <div class="container">
       <h1 class="text-center w-100">Trabajos Offline</h1>
-      <p class="text-center w-100">Esta es una muestra de algunos de mis trabajos offline realizados, desde papelería, packaging, desarrollo de productos, branding y fotografía.</p>
+      <p class="text-center w-100">Esta es una muestra de algunos de mis trabajos offline realizados, desde papelería,
+        packaging, desarrollo de productos, branding y fotografía.</p>
 
       <div class="container">
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
@@ -187,7 +262,7 @@
             <div class="carousel-item" data-interval="2000">
               <img class="d-block foto-offline3" alt="...">
             </div>
- 
+
             <div class="carousel-item" data-interval="2000">
               <img class="d-block foto-offline4" alt="...">
             </div>
@@ -208,7 +283,7 @@
           </a>
         </div>
       </div>
-      
+
 
     </div>
 
@@ -216,95 +291,10 @@
 
   </main>
 
-  <!--MIS TRABAJOS ONLINE -->
-
-  <section class="container-fluid trabajos_online p-4">
-
-    <div class="container">
-
-      <h1 class="text-center mt-4">Trabajos Online</h1>
-  
-      <div class="row ml-auto">
-  
-        <div class="col-sm-12 col-md-4 p-4">
-          <div class="card" style="width: 20rem;">
-            <img src="assets/img/online1.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h3 class="card-title">Meet & Coffee</h3>
-              <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
-                blandit erat luctus faucibus orci.</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-sm-12 col-md-4 p-4">
-          <div class="card" style="width: 20rem;">
-            <img src="assets/img/online2.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h3 class="card-title">Iguana</h3>
-              <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
-                blandit erat luctus faucibus orci.</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-sm-12 col-md-4 p-4">
-          <div class="card" style="width: 20rem;">
-            <img src="assets/img/online3.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h3 class="card-title">Suricata</h3>
-              <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
-                blandit erat luctus faucibus orci.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div class="row ml-auto">
-  
-        <div class="col-sm-12 col-md-4 p-4">
-          <div class="card" style="width: 20rem;">
-            <img src="assets/img/online4.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h3 class="card-title">Cuppon</h3>
-              <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
-                blandit erat luctus faucibus orci.</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-sm-12 col-md-4 p-4">
-          <div class="card" style="width: 20rem;">
-            <img src="assets/img/online5.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h3 class="card-title">Olivia Ros</h3>
-              <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
-                blandit erat luctus faucibus orci.</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-sm-12 col-md-4 p-4">
-          <div class="card" style="width: 20rem;">
-            <img src="assets/img/online6.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h3 class="card-title">Ricomida</h3>
-              <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
-                blandit erat luctus faucibus orci.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-    </div>
-  </section>
-
-  
-
 
   <!--SECCION CONTACTO -->
 
-  <section class="container-fluid text-white contacto">
+  <section id="contacto" class="container-fluid text-white contacto">
 
     <div>
 
@@ -315,19 +305,19 @@
 
     </div>
 
-<!--FORMULARIO -->
+    <!--FORMULARIO -->
 
     <div class="container">
-      
-    <div class="typeform-widget" data-url="https://franciscamoyano.typeform.com/to/cE9GlZ" style="w-100; height: 500px;"></div>
-    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> 
-    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=cE9GlZ&utm_source=typeform.com-01DZ4HB2XPAKTV31MZB6158T2Z-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> 
-    </div>
+
+      <div class="typeform-widget" data-url="https://franciscamoyano.typeform.com/to/cE9GlZ"
+        style="w-100; height: 400px;"></div>
+      <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+      <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+          href="https://admin.typeform.com/signup?utm_campaign=cE9GlZ&utm_source=typeform.com-01DZ4HB2XPAKTV31MZB6158T2Z-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
+          style="color: #999" target="_blank">Typeform</a>
+      </div>
 
     </div>
-
-    
-
 
     </div>
 
@@ -337,19 +327,25 @@
 
   <footer class="container-fluid redes_sociales">
     <p>También puedes encontrarme en:</p>
-    <a href="https://github.com"><i class="fab fa-github-square fa-3x"></i></a>
-    <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x ml-4"></i></a>
-    <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x ml-4"></i></a>
-    <a href="https://instagram.com"><i class="fab fa-instagram fa-3x ml-4"></i></a>
-    <a href="https://facebook.com"><i class="fab fa-facebook fa-3x mb-4 ml-4"></i></a>
+    <a href="https://franciscamoy.github.io"><i class="fab fa-github-square fa-3x"></i></a>
+    <a href="https://twitter.com/franmoyanoa"><i class="fab fa-twitter-square fa-3x ml-4"></i></a>
+    <a href="https://www.linkedin.com/in/franciscamoyano/"><i class="fab fa-linkedin fa-3x ml-4"></i></a>
+    <a href="https://www.instagram.com/panchi_moy"><i class="fab fa-instagram fa-3x ml-4"></i></a>
+    <a href="https://www.facebook.com/fra.moyano"><i class="fab fa-facebook fa-3x mb-4 ml-4"></i></a>
     <p>Todos los derechos reservados. Francisca Moyano Anfossi.</p>
-</footer>
+  </footer>
 
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
 </body>
 
