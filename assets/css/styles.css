@@ -69,16 +69,18 @@ ul li {
     padding-top: 80px;
 }
 
+.foto_header p {
+    font-weight: 600;
+    font-size: 12pt;
+}
+
 .rounded-circle {
     width: 100% 
 }
 
 /*-- TEXTO EXPERIENCIA--*/
 
-.texto_experiencia {
-    margin: auto;
- 
-}
+
 
 /*-- TRABAJOS ONLINE--*/
 
@@ -136,5 +138,6 @@ footer i {
 
 .redes_sociales p {
     color: white;
+    font-size: 10pt;
 }
 
