@@ -11,9 +11,9 @@ body {
 
 
 h1 {
-    font-family: 'Abril Fatface', cursive;
-    
+    font-family: 'Satisfy', cursive;
     color: #212529;
+    font-size: 40pt;
 }
 
 h2 {
@@ -39,15 +39,23 @@ ul li {
     font-size: 14pt;
 }
 
+.linea_separadora {
+    border: solid #000000 1px;
+
+}
 
 /*-- NAVEGADOR--*/
 
 .navbar {
-    background-color: #850404;
+    background-color: #000000;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    
 }
 
 .navbar-brand {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Satisfy', cursive;
     font-size: 30pt
 }
 
@@ -57,7 +65,8 @@ ul li {
     background-image: url(../img/img-fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;   
+    background-position: center;
+    padding-top: 80px;
 }
 
 .rounded-circle {
@@ -75,65 +84,40 @@ ul li {
 /*-- TRABAJOS ONLINE--*/
 
 .trabajos_online {
-    background-color: rgb(179, 177, 176) !important;
+    background-image: url(../img/img-galeria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
 }
 
 /*-- CARRUSEL TRABAJOS OFFLINE--*/
 
-.foto-offline1 {
-    background-image: url(../img/offline1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-      
-}
-.foto-offline2 {
-    background-image: url(../img/offline2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+.MultiCarousel { float: left; overflow: hidden; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
     
-}
-.foto-offline3 {
-    background-image: url(../img/offline3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    
-}
-.foto-offline4 {
-    background-image: url(../img/offline4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    
-}
-.foto-offline5 {
-    background-image: url(../img/offline5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    
-}
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
 
-
+        
 /*-- CONTACTO --*/
 
-.contacto {
-    background-color: #850404;
-}
 
+.contacto {
+    background-image: url(../img/img-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
 
 /*-- FOOTER--*/
 
 .redes_sociales {
     text-align: center;
-    background-color: #212529;
+    background-color: #000000;
 }
 
 footer i {

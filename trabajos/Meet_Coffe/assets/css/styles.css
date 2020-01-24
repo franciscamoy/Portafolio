@@ -1,0 +1,138 @@
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*--MENU NAVEGADOR--*/
+
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    background-color: #000f08;
+    color: #ffffff;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+.icono {
+    filter: invert(100%);
+    width: 20px;
+    
+}
+
+/*--HERO SECTION--*/
+
+.hero__section {
+    height: 400px;
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 3.125rem 3.125rem;
+}
+
+header h1, header p {
+    padding-top: 20px;
+    padding-right: 30px;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 800;
+    font-size: 3,75em;
+    text-shadow: 0px 3px 6px #00000080;
+}
+
+/*--SECCION WEWORK--*/
+
+main {
+     background-color: #ffffff;
+     padding: 50px;
+     text-align: center;
+}
+
+/*--PROXIMA CHARLA--*/
+
+section {
+    background-color: #A4452C;
+    text-align: center;
+}
+
+.centrado {
+    display: inline-flex;
+}
+.foto-speaker {
+    text-align: right;
+    padding: 50px 20px 50px;
+}
+.foto-speaker {
+    text-align: right;
+    padding: 50px 20px 50px;
+}
+.charla-texto {
+    text-align: left;
+    padding: 50px 20px 50px;
+    color: #ffffff;
+
+}
+
+/*--EVENTOS ANTERIORES--*/
+
+.eventos-anteriores {
+    background-color: #ffffff;
+    text-align: center;
+}
+.eventos article {
+    display: inline-block;
+    width: 30%;
+}
+article img {
+    width: 80%;
+}
+.simposio {
+    text-align: center;
+}
+.machine {
+    text-align: center;  
+}
+.scrum {
+    text-align: center;  
+}
+
+/*--FOOTER--*/
+
+footer {
+    text-align: center;
+    background-color: #000f08;
+    height: 150px;
+    padding-top: 90px;
+    color: #ffffff;
+}
+.pie-negro a {
+    color: #ffffff;
+    margin: 10px;
+}
+
+/*--PAGINA EVENTO 1--*/
+
+.evento-1 {
+    text-align: center;
+    width: 1085px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.evento-1 img {
+    width: 1085px;
+}
+.evento-1 p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+}

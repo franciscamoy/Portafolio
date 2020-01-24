@@ -1,0 +1,118 @@
+
+.title {
+    background-color: #000000;
+    text-align: center;
+    height: 73px;
+}
+.title h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+.hero__section {
+    height: 727px;
+    width: auto;
+    text-align: center;
+}
+
+body {
+     background-color: #000000;
+     font-family: 'Raleway', sans-serif;
+}
+
+.desc-section {
+    background-color: #000000;
+    text-align: center;
+}
+.centrado {
+    display: inline-flex;
+    
+}
+.centrado img {
+   padding: 45px 150px 66px 50px;
+   width: 399px;
+   height: 237px;
+}
+.texto-iguana {
+   text-align: left;
+   font-weight: 300;
+   color: white;
+   padding: 76px 56px 75px 150px;
+   width: 475px;
+
+}
+footer {
+    text-align: center;
+    background-color: black;
+    height: 200px;
+    padding-top: 30px;
+    color: white;
+}
+
+.icons-section {
+    background-color: #1E1A13;
+  
+}
+
+.contener-iconos {
+   padding: auto;
+}
+
+.caracteristicas {
+    padding-top: 50px;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    margin: 0em;
+}
+
+
+.iconos {
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article i {
+    color: #ffffff;
+    
+}
+.tercer-ojo {
+    text-align: center;
+    padding: 50px 50px 30px 50px;
+}
+.pacificas {
+    text-align: center; 
+    padding: 50px 50px 30px 50px; 
+}
+.cambian-color {
+    text-align: center;  
+    padding: 50px 50px 30px 50px;
+}
+h2 {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 25px;
+}
+.galeria {
+    background-color: #000000;
+}
+.contenedor-galeria {
+    width: 1200px;
+    height: 298px;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.galeria img{
+    align-items: center;
+    height: 70%;
+    padding: 8px;
+}
+footer {
+    height: 90px;
+    background-color: #1E1A13;
+}

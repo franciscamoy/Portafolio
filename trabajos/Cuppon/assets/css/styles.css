@@ -1,0 +1,54 @@
+.fondo__navbar {
+    height: 75px;
+}
+.navbar-brand img {
+    height: auto;
+    width: 150px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.location {
+    display: inline-block; 
+}
+.font_size {
+    font-size: 18pt;
+    font-weight: 500;   
+}
+.tienda {
+    font-size: 15pt;    
+}
+.adress {
+    font-size: 9pt;    
+}
+.precio {
+    font-size: 12pt;    
+}
+
+.contenido__form {
+    align-items: center;    
+}
+
+.footer-logo img {
+    margin: 4px;
+    height: 30px;    
+}
+.footer-text {
+    color: #707070;
+    text-align: center;
+    margin: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;    
+}
+

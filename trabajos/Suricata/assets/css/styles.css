@@ -1,0 +1,29 @@
+.fondo__navbar {
+    background-color: #E83E8C !important;
+    height: 75px;
+}
+.navbar-brand img {
+    height: auto;
+    width: 150px;
+}
+
+.card__title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.icons-section {
+    background-color: #17A2B8 !important;
+    padding: 50px 150px;
+}
+
+.fondo__footer {
+    background-color: #E83E8C !important;
+    height: 184px;
+}
+.footer-brand img {
+    height: 100px;
+    margin-top: 30px;
+    
+}
