@@ -80,7 +80,6 @@ ul li {
  
 }
 
-
 /*-- TRABAJOS ONLINE--*/
 
 .trabajos_online {
@@ -90,7 +89,17 @@ ul li {
     background-position: center;  
 }
 
+@media (max-width: 575.98px) {
+    .anchomodal {
+        width: 100vw; 
+        display: inline-block;
+    }
+}
+
+
 /*-- CARRUSEL TRABAJOS OFFLINE--*/
+
+
 
 .MultiCarousel { float: left; overflow: hidden; width: 100%; position:relative; }
     .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }

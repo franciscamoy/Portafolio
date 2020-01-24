@@ -38,14 +38,14 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">FM</a>
+      <a class="navbar-brand" href="#topSection">FM</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" onclick="scroll()" href="#experiencia">Experiencia</a>
           </li>
           <li class="nav-item">
@@ -109,10 +109,7 @@
 
           <h3 class="text-center text-lg-left">Experiencia Online</h3>
 
-          <p class="text-center text-lg-left">UX (por sus siglas en inglés User eXperience) o en español Experiencia de
-            Usuario, es aquello que una persona percibe al interactuar con un producto o servicio.
-            Logramos una buena UX al enfocarnos en diseñar productos útiles, usables y deseables, lo cual influye en que
-            el usuario se sienta satisfecho, feliz y encantado.</p>
+          <p class="text-center text-lg-left"> Diseñadora UX/UI aprendiendo a satisfacer los deseos de todo tipo de usuario.</p>
 
           <div class="w-100 iconos_manejo">
 
@@ -140,10 +137,7 @@
 
           <h3 class="text-center text-lg-left">Experiencia Offline</h3>
 
-          <p class="text-center text-lg-left"> Desarrollo y desarrollo de Productos de consumo masivo. Spot
-            Publicitarios, Vía Pública, POP. Edición Fotográfica analoga y digital.
-            Imagen corporativa y Branding. Manejo de equipos de trabajo multidisciplinarios. Inglés e Italiano avanzado
-            hablado y escrito. Manejo de Software de Diseño nivel avanzado.</p>
+          <p class="text-center text-lg-left"> Desarrollo y desarrollo de Productos de consumo masivo. Spot Publicitarios, Vía Pública, POP. Edición Fotográfica analoga y digital. Imagen corporativa y branding. Inglés e Italiano avanzado hablado y escrito. Manejo de Software de Diseño nivel avanzado.</p>
 
           <div class="text-center text-lg-left w-100 iconos_manejo">
             <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Adobe Photoshop">
@@ -230,7 +224,7 @@
             <div class="card-body">
               <h3 class="card-title">Olivia Ros</h3>
               <p class="card-text">Portafolio online de el cliente.</p>
-              <button type="button" class="btn btn-dark">Ver más</button>
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Ver más</button>
             </div>
           </div>
         </div>
@@ -253,6 +247,15 @@
     
   </section>
 
+  <!--modal -->
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <img class="anchomodal" src="assets/img/modal_olivia.png" alt="modal olivia">
+    </div>
+  </div>
+  
+  
   <!--CARUSEL TRABAJOS OFFLINE -->
 
   
@@ -265,8 +268,7 @@
       <hr class="linea_separadora">
 
       <h2 class="text-center w-100">Trabajos Offline</h2>
-      <p class="text-center w-100">Esta es una muestra de algunos de mis trabajos offline realizados, desde papelería,
-        packaging, desarrollo de productos, branding y fotografía.</p>
+      <p class="text-center w-100">Pequeña muestra de trabajos realizado en indumentaria, branding y diagramación.</p>
     </div>
 
     <div class="container">
@@ -274,52 +276,88 @@
         <div class="MultiCarousel" data-items="1,2,3,4,5,6,7,8" data-slide="1" id="MultiCarousel"  data-interval="1000">
                 <div class="MultiCarousel-inner">
 
-                    <div class="item">
+                    <div class="item offline1">
                         <div class="pad15">
                           <img src="assets/img/offline1.jpg" alt="">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item foto_offline">
                         <div class="pad15">
                           <img src="assets/img/offline2.jpg" alt="">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item foto_offline">
                         <div class="pad15">
                           <img src="assets/img/offline3.jpg" alt="">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item foto_offline">
                         <div class="pad15">
                           <img src="assets/img/offline4.jpg" alt="">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item foto_offline">
                         <div class="pad15">
                           <img src="assets/img/offline5.jpg" alt="">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item foto_offline">
                         <div class="pad15">
                           <img src="assets/img/offline6.jpg" alt="">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item foto_offline">
                         <div class="pad15">
                           <img src="assets/img/offline7.jpg" alt="">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item foto_offline">
                         <div class="pad15">
                           <img src="assets/img/offline8.jpg" alt="">
                         </div>
+                    </div>
+
+                    <div class="item foto_offline">
+                      <div class="pad15">
+                        <img src="assets/img/offline9.jpg" alt="">
+                      </div>
+                    </div>
+
+                    <div class="item foto_offline">
+                      <div class="pad15">
+                        <img src="assets/img/offline10.jpg" alt="">
+                      </div>
+                    </div>
+
+                    <div class="item foto_offline">
+                      <div class="pad15">
+                        <img src="assets/img/offline11.jpg" alt="">
+                      </div>
+                    </div>
+
+                    <div class="item foto_offline">
+                      <div class="pad15">
+                        <img src="assets/img/offline12.jpg" alt="">
+                      </div>
+                    </div>
+
+                    <div class="item foto_offline">
+                      <div class="pad15">
+                        <img src="assets/img/offline13.jpg" alt="">
+                      </div>
+                    </div>
+
+                    <div class="item foto_offline">
+                      <div class="pad15">
+                        <img src="assets/img/offline14.jpg" alt="">
+                      </div>
                     </div>
                
                 </div>
